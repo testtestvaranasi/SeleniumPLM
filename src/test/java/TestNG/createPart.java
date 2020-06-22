@@ -180,7 +180,7 @@ public class createPart {
 	     
 		 driver.findElement(By.id("VPMProductName1")).sendKeys("Test Data sel");
 		 
-		//saving New Part new
+		//saving New Part new file
 		 
 		 driver.findElement(By.xpath("/html/body/div[3]/div/table/tbody/tr/td[2]/table/tbody/tr/td[2]/a/button")).click();
 	     

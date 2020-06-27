@@ -35,7 +35,7 @@ public class createPart {
  public void verifylogin() throws InterruptedException {	      
 	    driver.get("https://qa3dexp.nventco.com/3dpassport/login?service=https%3A%2F%2Fqa3dexp.nventco.com%2F3dspace%2Fcommon%2FemxNavigator.jsp");
 	    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-	    driver.findElement(By.name("username")).sendKeys("EID");
+	    driver.findElement(By.name("username")).sendKeys("E1125316");
 	    driver.findElement(By.name("password")).sendKeys("Password");
 	    driver.findElement(By.xpath("//div[@class='commands']")).click(); 
 	 
@@ -46,7 +46,7 @@ public class createPart {
       driver.get("https://qa3dexp.nventco.com/3dpassport/login?service=https%3A%2F%2Fqa3dexp.nventco.com%2F3dspace%2Fcommon%2FemxNavigator.jsp");
       driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
       driver.findElement(By.name("username")).sendKeys("EID");
-      driver.findElement(By.name("password")).sendKeys("Password");
+      driver.findElement(By.name("password")).sendKeys("Plm12345");
       driver.findElement(By.xpath("//div[@class='commands']")).click();
       Thread.sleep(50000);
       driver.findElement(By.xpath("//div[@class='add topbar-menu-item topbar-cmd fonticon fonticon-plus']")).click();
